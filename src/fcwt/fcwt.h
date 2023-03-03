@@ -54,7 +54,8 @@ limitations under the License.
 #else
     #include <unistd.h>
 #endif
-#include "fftw3.h"
+//#include "fftw3.h"
+#include <fftw3_mkl.h>
 #include <memory>
 //check if avx is supported and include the header
 #if defined(__AVX__)
